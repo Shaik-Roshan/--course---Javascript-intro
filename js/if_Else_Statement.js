@@ -24,7 +24,7 @@ if(gender="male")
 }
 else
 {
-    document.write("hello mrs."+fname)
+    document.write("hello miss."+fname)
 }
 
 // example_3:
