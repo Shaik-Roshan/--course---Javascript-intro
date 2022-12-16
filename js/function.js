@@ -18,8 +18,25 @@ var a = 10;
 
 function someting() {
   console.log(a);
-  
-var a =20;
-console.log(a)
+
+  var a = 20;
+  console.log(a);
 }
 someting();
+
+function repeat() {
+  document.write("hey roshan");
+  document.write("<br>");
+
+  document.write("your doing good job");
+  document.write("<br>");
+
+  document.write("proud of you");
+  document.write("<br>");
+  document.write("<br>");
+
+}
+
+repeat();
+repeat();
+repeat();
