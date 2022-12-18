@@ -1,5 +1,5 @@
 // Example_1:
-var day = 5;
+var day = prompt("enter day of the week");
 
 switch (day) {
   case 0:
@@ -28,10 +28,11 @@ switch (day) {
     document.write("enter the valid week day");
     break;
 }
+document.write("<br>")
 
 // example_2:
 
-var marks = 72;
+var marks = prompt("enter your marks");
 switch (true) {
   case (marks >= 35 && marks <= 50):
     document.write("your in top 40 list");
