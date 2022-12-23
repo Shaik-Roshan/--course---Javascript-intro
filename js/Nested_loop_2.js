@@ -11,9 +11,15 @@ for(var a = 5; a >= 1;  a-- ){
 // 2 1
 // 1
 
-for(c=5;c>=1;c--){
-    for(d=1;d<=c;c++){
+for(var c=5;c>=1;c--){
+    for(var d=1;d<=c;d++){
         document.write(c);
     }
     document.write("<br>");
 }
+//output
+// 55555
+// 4444
+// 333
+// 22
+// 1
