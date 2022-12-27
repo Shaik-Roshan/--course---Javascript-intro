@@ -18,3 +18,9 @@ document.write(e+"<br>")
 var f=Array.isArray(c);
 document.write(f+"<br>")
 
+//we can use this method in if condition
+if(Array.isArray(a)){
+    document.write("yes this is Array")
+}else{
+    document.write("no this is not an array")
+}
