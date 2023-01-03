@@ -10,7 +10,7 @@ var a={
         return 25000;
     },
     fullName:function(){
-        return fname+" "+lname;
+        return this.fname+" "+this.lname;
     }
 
 }
