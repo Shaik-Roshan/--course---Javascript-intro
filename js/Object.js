@@ -11,6 +11,10 @@ var a={
     },
     fullName:function(){
         return this.fname+" "+this.lname;
+    },
+    living:{
+        city:"Rajasthan",
+        pin:12345,
     }
 
 }
@@ -19,5 +23,8 @@ document.write(a.fname+"<br>");
 document.write(a.cars+"<br>");
 document.write(a.cars[2]+"<br>");
 document.write(a.salary()+"<br>");
-document.write(a.fullName());
+document.write(a.fullName()+"<br>");
+document.write(a.living.city+"<br>");
+
+
 
