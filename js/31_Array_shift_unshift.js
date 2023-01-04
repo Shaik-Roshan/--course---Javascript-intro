@@ -6,6 +6,7 @@ document.write(friends+"<br>");//before shift and unshift
 
 
 friends.shift();
+friends.shift();
 document.write(friends+"<br>");//after shift
 
 // output
