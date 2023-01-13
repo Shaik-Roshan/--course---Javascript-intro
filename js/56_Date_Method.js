@@ -26,3 +26,4 @@ document.write(date.getHours()+"<br>");
 document.write(date.getMinutes()+"<br>");
 document.write(date.getSeconds()+"<br>");
 document.write(date.getMilliseconds()+"<br>");
+
