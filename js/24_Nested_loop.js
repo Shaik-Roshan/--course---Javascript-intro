@@ -1,3 +1,34 @@
+// syntax for loop :
+//******** for loop inside for loop*********
+
+/*for(initialization; test condition ; increment or decremrnt)
+{
+    block of statement;
+    for(initialization; test condition ; increment or decremrnt)
+    {
+        block of statement;
+    }
+}*/
+
+for(i=0;i<3;i++){
+    document.write(i+"----outer for loop---- "+"<br>")
+    for(j=0;j<2;j++){
+        document.write(j+"inner for loop"+"<br>")
+    }
+
+}
+// output
+// 0----outer for loop----
+// 0inner for loop
+// 1inner for loop
+// 1----outer for loop----
+// 0inner for loop
+// 1inner for loop
+// 2----outer for loop----
+// 0inner for loop
+// 1inner for loop
+
+
 // for(a = 1; a <= 100; a = a+10){
 //   for(b = a; b<a+10; b++){
 //     document.write(b +" ");
@@ -15,4 +46,3 @@
 71 72 73 74 75 76 77 78 79 80
 81 82 83 84 85 86 87 88 89 90
 91 92 93 94 95 96 97 98 99 100*/
-
